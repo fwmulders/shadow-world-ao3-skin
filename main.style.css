@@ -1005,3 +1005,48 @@ li.comment {
 input[type="submit"],
 button,
 .current,
+
+.actions label {
+  color: black;
+  background: linear-gradient(white 2%, #fdf9cc 40%, #fce92a 60%);
+  border: solid 1px #ffa616;
+  transform: skewX(-5deg);
+  display: inline-block;
+  font-weight: bold;
+}
+
+.actions a:visited,
+.action:visited,
+.action a:link,
+.action a:visited {
+  color: black;
+}
+
+.actions input:hover,
+.actions button:hover,
+.actions a:hover {
+  color: black;
+  font-style: italic;
+  background: #fce92a;
+}
+
+#dashboard,
+#dashboard.own {
+  background: url(https://i.imgur.com/CBQ2TOg.png);
+  border: solid #222;
+  border-width: 15px 4px 15px 4px;
+  border-radius: 0px;
+  transform: skewY(-1.5deg);
+  box-shadow: 4px 4px 0px #000;
+}
+
+#dashboard ul {
+  border-color: #000;
+}
+
+#dashboard a {
+  color: black;
+  background: linear-gradient(white 2%, #fdf9cc 40%, #fce92a 60%);
+  border: solid 1px #ffa616;
+}
+
