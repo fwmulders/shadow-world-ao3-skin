@@ -1050,3 +1050,48 @@ button,
   border: solid 1px #ffa616;
 }
 
+#dashboard .current,
+#dashboard a:hover {
+  color: white;
+  background: linear-gradient(#777 2%, #555 40%, #333 60%);
+  border: solid 1px #000;
+}
+
+.bio .userstuff {
+  background: transparent;
+  border: solid 4px #fce92a;
+  padding: 10px;
+}
+
+.pseud .header .heading,
+.collection .header .heading,
+.skins .header .heading:not(.primary .heading) {
+  margin-left: 80px;
+}
+
+.pseud .header,
+.collection .header,
+.skins .header:not(.primary .header) {
+  min-height: 80px;
+}
+
+.bookmark .user {
+  background: #fdf9cc;
+  border-color: #ffa616;
+}
+
+.bookmark h5.byline.heading:after {
+  content: " ♡";
+}
+
+blockquote pre:not(.skins-index blockquote pre,
+.primary blockquote pre) {
+  background-color: transparent;
+  border: solid 4px #fce92a;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+
