@@ -1183,3 +1183,39 @@ html:before {
   box-sizing: border-box !important;
   overflow-wrap: anywhere !important;
 
+    word-break: break-word !important;
+}
+
+.logged-in .splash > div:nth-of-type(even) {
+  transform: none !important;
+  box-shadow: 5px 5px 0px #ffa616 !important;
+}
+
+.logged-in .splash .module * {
+  max-width: 100% !important;
+  overflow-wrap: anywhere !important;
+  word-break: break-word !important;
+}
+
+html:before {
+  width: 90px;
+  height: 90px;
+  background-size: 90px;
+}
+
+h2.heading,
+h2.heading a {
+  color: #000 !important;
+  text-shadow: -2px -2px 0 #fff,
+         2px -2px 0 #fff,
+        -2px 2px 0 #fff,
+         2px 2px 0 #fff,
+        -2px 0 0 #fff,
+         2px 0 0 #fff,
+         0 -2px 0 #fff,
+         0 2px 0 #fff,
+         0 0 6px rgba(255,255,255,.6);
+}
+
+
+
