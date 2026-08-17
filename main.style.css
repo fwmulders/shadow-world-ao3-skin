@@ -1095,3 +1095,91 @@ blockquote pre:not(.skins-index blockquote pre,
 .kudos_notice,
 ul.notes,
 
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  background-color: #fdf9cc;
+  border-color: #ffa616;
+}
+
+dl.subscription {
+  background: transparent;
+  border: solid 4px #fce92a;
+  padding: 10px 0px 0px 10px;
+}
+
+.subscription dd {
+  background-color: transparent !important;
+}
+
+.skins .userstuff:not(.skins-index .userstuff) {
+  background: transparent;
+  border: solid 4px #fce92a;
+  padding: 5px;
+}
+
+.news[role=article],
+.docs .userstuff:not(.index .userstuff) {
+  background: #fff;
+  border: solid 4px #fce92a;
+  box-shadow: inset 1px 0 5px #fdf9cc;
+}
+
+html:before {
+  background-image: url(https://i.postimg.cc/VvtDztQk/fv-logo-931178491f33032c7d6408c3b86ab489.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  content: "";
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1000;
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 17px;
+}
+
+::-webkit-scrollbar-corner {
+  background: #eee;
+}
+
+::-webkit-scrollbar-track:vertical {
+  background: linear-gradient(90deg, #e5e5e5, #f0f0f0 20%);
+}
+
+::-webkit-scrollbar-track:horizontal {
+  background: linear-gradient(180deg, #e5e5e5, #f0f0f0 20%);
+}
+
+::-webkit-scrollbar-thumb {
+  border: 1.5px solid #888;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 1px #fff, inset 0 1px 1px #fff;
+  background-color: #eee;
+}
+
+.logged-in .splash {
+  display: block !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+}
+
+.logged-in .splash > .module {
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: none !important;
+  margin: 0 0 20px 0 !important;
+  transform: none !important;
+  box-sizing: border-box !important;
+  overflow-wrap: anywhere !important;
+
